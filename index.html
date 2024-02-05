@@ -10,7 +10,7 @@
 	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>Hostily - Luxury Hotel Booking HTML5 Template</title>
+	<title>Hotel Aura</title>
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<!-- Bootstrap CSS -->
@@ -29,16 +29,18 @@
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="assets/sass/style.css"> 
+	<link rel="stylesheet" href="assets/css/custom.css">
+	
 </head>
 
 <body>
 	<!-- Preloader start -->
-	<div class="theme-loader">
+	<!-- <div class="theme-loader">
 		<div class="spinner">
 			<div class="double-bounce1"></div>
 			<div class="double-bounce2"></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- Preloader end -->
 	<!-- Header Area Start -->
 	<div class="header__sticky">
@@ -99,21 +101,21 @@
 	</div>
 	<!-- Header Area End -->	
 	<!-- Banner Area Start -->	
-	<div class="banner__area" data-background="assets/img/banner-1.jpg">
+	<div class="banner__area" data-background="assets/images/Hotel-aura-banner-img-home-page.png">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="banner__area-title">
 						<h1>The Best Hotel<span>Deals in the World</span></h1>
-						<div class="banner__area-title-video">
+						<!-- <div class="banner__area-title-video">
 							<div class="video__play">
 								<a class="video-popup" href="https://www.youtube.com/watch?v=0WC-tD-njcA"><i class="fas fa-play"></i></a>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<form action="#">
 					<div class="check__area">
 						<div class="check__area-item">						
@@ -139,7 +141,7 @@
 						</div>
 					</div>
 				</form>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<!-- Banner Area End -->
@@ -158,9 +160,9 @@
 				<div class="col-xl-7 col-lg-6">
 					<div class="accommodations__area-right">
 						<div class="accommodations__area-right-image">
-							<img src="assets/img/hotel/hotel-1.jpg" alt="">
+							<img src="assets/images/home1-page-deluxe-room-cross-image.png" alt="">
 							<div class="accommodations__area-right-image-two">
-								<img src="assets/img/hotel/hotel-2.jpg" alt="">
+								<img src="assets/images/home-page-deluxe-room-cross-image.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -183,10 +185,10 @@
 					<div class="deluxe__area-btn">
 						<ul>
 							<li class="active" data-filter="*">All Rooms</li>
-							<li data-filter=".luxury">Deluxe Double</li>
-							<li data-filter=".single">Standard Double</li>
-							<!-- <li data-filter=".suite">Small Suite</li>
-							<li data-filter=".family">Family</li> -->
+							<li data-filter=".single">Standard</li>
+							<li data-filter=".luxury">Deluxe </li>
+							<li data-filter=".suite">Super Deluxe</li>
+							<!-- <li data-filter=".family">Family</li> -->
 						</ul>
 					</div>
 				</div>
@@ -231,23 +233,36 @@
 				<div class="col-xl-6 col-lg-8 lg-mb-30 single">
 					<div class="deluxe__area-item"> 
 						<div class="deluxe__area-item-image">
-							<img class="img__full" src="assets/img/luxury/luxury-4.jpg" alt="">
+							<img class="img__full" src="assets/images/standard-room-image.png" alt="">
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$169</span> / Night</a></h6>
-							<h4><a href="room-details.html">Single Room</a></h4>
+							<!-- <h6><a href="#"><span>$169</span> / Night</a></h6> -->
+							<h4><a href="room-details.html">Standard Double Room</a></h4>
 							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
 						</div>
 					</div>
 				</div>
+
 				<div class="col-xl-6 luxury">
 					<div class="deluxe__area-item"> 
 						<div class="deluxe__area-item-image">
-							<img class="img__full" src="assets/img/luxury/luxury-5.jpg" alt="">
+							<img class="img__full" src="assets/images/deluxe-room-image.png" alt="">
 						</div>
 						<div class="deluxe__area-item-content"> 
-							<h6><a href="#"><span>$249</span> / Night</a></h6>
-							<h4><a href="room-details.html">Luxury Room</a></h4>
+							<!-- <h6><a href="#"><span>$249</span> / Night</a></h6> -->
+							<h4><a href="room-details.html">Deluxe Double Room</a></h4>
+							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 suite">
+					<div class="deluxe__area-item"> 
+						<div class="deluxe__area-item-image">
+							<img class="img__full" src="assets/images/super-deluxe-room-image.png" alt="">
+						</div>
+						<div class="deluxe__area-item-content"> 
+							<!-- <h6><a href="#"><span>$249</span> / Night</a></h6> -->
+							<h4><a href="room-details.html">Super Deluxe Double Room</a></h4>
 							<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Booking Now</a> 
 						</div>
 					</div>
@@ -263,51 +278,53 @@
 	<!-- Services Two Start -->
 	<div class="services__two section-padding pt-0">
 		<div class="container">
+			
 			<div class="row justify-content-center">
 				<div class="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
 					<div class="services__two-item">
-						<span>01</span>
+						<!-- <span>01</span> -->
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/cleaning-1.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>Room Cleaning</h4>
+							<h4>Room Services</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6 lg-mb-30">
 					<div class="services__two-item">
-						<span>02</span>
+						<!-- <span>02</span> -->
 						<div class="services__two-item-icon">
-							<img src="assets/img/icon/car-parking.png" alt="">
+							<img width="60" height="60" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/60/000000/external-free-wifi-rage-room-flaticons-lineal-color-flat-icons.png" alt="external-free-wifi-rage-room-flaticons-lineal-color-flat-icons"/>
+							<!-- <img src="assets/img/icon/car-parking.png" alt=""> -->
 						</div>
 						<div class="services__two-item-content">
-							<h4>Car Parking</h4>
+							<h4>Free WiFi</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6 lg-mb-30">
 					<div class="services__two-item">
-						<span>03</span>
+						<!-- <span>03</span> -->
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/swimming-pool.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>Swimming pool</h4>
+							<h4>Air conditioning</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6">
 					<div class="services__two-item">
-						<span>04</span>
+						<!-- <span>04</span> -->
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/location-1.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>PickUp & Drop</h4>
+							<h4>24/7 front desk</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
@@ -317,48 +334,48 @@
 			<div class="row justify-content-center">
 				<div class="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
 					<div class="services__two-item">
-						<span>01</span>
+						
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/cleaning-1.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>Room Cleaning</h4>
+							<h4>Family rooms</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6 lg-mb-30">
 					<div class="services__two-item">
-						<span>02</span>
+						
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/car-parking.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>Car Parking</h4>
+							<h4>Private bathroom</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6 lg-mb-30">
 					<div class="services__two-item">
-						<span>03</span>
+						
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/swimming-pool.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>Swimming pool</h4>
+							<h4>Flat-screen TV</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-xl-3 col-lg-4 col-md-6">
 					<div class="services__two-item">
-						<span>04</span>
+						
 						<div class="services__two-item-icon">
 							<img src="assets/img/icon/location-1.png" alt="">
 						</div>
 						<div class="services__two-item-content">
-							<h4>PickUp & Drop</h4>
+							<h4>Restaurant</h4>
 							<p>Proin massa augue, lacinia at blandit ac, Fringilla scelerisque tortor. Mauris</p>
 						</div>
 					</div>
@@ -512,26 +529,54 @@
 				<div class="row">
 					<div class="col-sm-3 sm-mb-10">
 						<div class="gallery__area-item">						
-							<a class="img-popup" href="assets/img/features/gallery-1.jpg"><img class="img__full" src="assets/img/features/gallery-1.jpg" alt=""></a>
+							<a class="img-popup" href="assets/images/reception-gallery-1.png"><img class="img__full" src="assets/images/reception-gallery-1.png" alt=""></a>
 						</div>
 					</div>
 					<div class="col-sm-3 sm-mb-10">
 						<div class="gallery__area-item">						
-							<a class="img-popup" href="assets/img/features/gallery-2.jpg"><img class="img__full" src="assets/img/features/gallery-2.jpg" alt=""></a>
+							<a class="img-popup" href="assets/images/room-gallery-2.png"><img class="img__full" src="assets/images/room-gallery-2.png" alt=""></a>
 						</div>
 					</div>
 					<div class="col-sm-3 sm-mb-10">
 						<div class="gallery__area-item">						
-							<a class="img-popup" href="assets/img/features/gallery-3.jpg"><img class="img__full" src="assets/img/features/gallery-3.jpg" alt=""></a>
+							<a class="img-popup" href="assets/images/room-gallery-3.png"><img class="img__full" src="assets/images/room-gallery-3.png" alt=""></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="gallery__area-item">						
-							<a class="img-popup" href="assets/img/features/gallery-4.jpg"><img class="img__full" src="assets/img/features/gallery-4.jpg" alt=""></a>
+							<a class="img-popup" href="assets/images/room-gallery-4.png"><img class="img__full" src="assets/images/room-gallery-4.png" alt=""></a>
 						</div>
 					</div>
 				</div>
 			</div>
+			
+		</div>
+		<div class="gallery__area section-padding pb-0 overflow-hidden">
+			<div class="container-fluid p-0">
+				<div class="row">
+					<div class="col-sm-3 sm-mb-10">
+						<div class="gallery__area-item">						
+							<a class="img-popup" href="assets/images/room-gallery-5.png"><img class="img__full" src="assets/images/room-gallery-5.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-sm-3 sm-mb-10">
+						<div class="gallery__area-item">						
+							<a class="img-popup" href="assets/images/room-gallery-6.png"><img class="img__full" src="assets/images/room-gallery-6.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-sm-3 sm-mb-10">
+						<div class="gallery__area-item">						
+							<a class="img-popup" href="assets/images/room-gallery-7.png"><img class="img__full" src="assets/images/room-gallery-7.png" alt=""></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="gallery__area-item">						
+							<a class="img-popup" href="assets/images/room-gallery-8.png"><img class="img__full" src="assets/images/room-gallery-8.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		<!-- Gallery Area End -->
 	<!-- Footer Area Start -->	
@@ -545,7 +590,7 @@
 								<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
 							</div>
 							<p>Phasellus nisi sapien, rutrum placerat sapien eu, rhoncus tempus</p>
-							<div class="footer__area-widget-about-social">
+							<!-- <div class="footer__area-widget-about-social">
 								<ul>
 									<li><a href="#"><i class="fab fa-facebook-f"></i></a>
 									</li>
@@ -556,7 +601,20 @@
 									<li><a href="#"><i class="fab fa-youtube"></i></a>
 									</li>
 								</ul>
-							</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-5 col-sm-4 sm-mb-30">
+					<div class="footer__area-widget">
+						<h5>Quick Links</h5>
+						<div class="footer__area-widget-menu">
+							<ul>
+								<li><a href="index.html"><i class="fal fa-angle-double-right"></i>Home</a></li>
+								<li><a href="about.html"><i class="fal fa-angle-double-right"></i>About</a></li>
+								<li><a href="room-list.html"><i class="fal fa-angle-double-right"></i>Room</a></li>
+								<li><a href="contact.html"><i class="fal fa-angle-double-right"></i>Contact</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -564,20 +622,13 @@
 					<div class="footer__area-widget">
 						<h5>Information</h5>
 						<div class="footer__area-widget-contact">
-							<div class="footer__area-widget-contact-item">
-								<div class="footer__area-widget-contact-item-icon">
-									<i class="fal fa-map-marked-alt"></i>
-								</div>
-								<div class="footer__area-widget-contact-item-content">									
-									<span><a href="#">GXF4+8HQ Chippenham United Kingdom</a></span>
-								</div>
-							</div>
+							
 							<div class="footer__area-widget-contact-item">
 								<div class="footer__area-widget-contact-item-icon">
 									<i class="fal fa-envelope-open-text"></i>
 								</div>
 								<div class="footer__area-widget-contact-item-content">									
-									<span><a href="mailto:help.info@gamil.com">help.info@gamil.com</a></span>
+									<span><a href="mailto:aurahotel001@gmail.com">aurahotel001@gmail.com</a></span>
 								</div>
 							</div>
 							<div class="footer__area-widget-contact-item">
@@ -585,25 +636,21 @@
 									<i class="fal fa-phone-alt"></i>
 								</div>
 								<div class="footer__area-widget-contact-item-content">									
-									<span><a href="tel:+123(458)585568">+123 (458) 585 568</a></span>
+									<span><a href="tel:+919136812929">+91 9136812929</a></span>
+								</div>
+							</div>
+							<div class="footer__area-widget-contact-item">
+								<div class="footer__area-widget-contact-item-icon">
+									<i class="fal fa-map-marked-alt"></i>
+								</div>
+								<div class="footer__area-widget-contact-item-content">									
+									<span><a href="https://maps.app.goo.gl/5kucNkAFNUUaMhTs7">11, Padma Nagar , Aura hotel,Malad West Besides Vijaya Bank, Opp. Auris Serenity tower,Link road , Malad West, 400064 Mumbai, India</a></span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-2 col-lg-2 col-md-5 col-sm-4 sm-mb-30">
-					<div class="footer__area-widget">
-						<h5>Pages Links</h5>
-						<div class="footer__area-widget-menu">
-							<ul>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Room Cleaning</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Car Parking</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Swimming pool</a></li>
-								<li><a href="services-details.html"><i class="fal fa-angle-double-right"></i>Fitness Gym</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				
 				<!-- <div class="col-xl-4 col-lg-4 col-md-7 col-sm-8">
 					<div class="footer__area-widget">
 						<h5>Subscribe</h5>
@@ -622,16 +669,17 @@
 				<div class="row align-items-center">
 					<div class="col-xl-6 col-lg-6 col-md-7 md-mb-10">
 						<div class="copyright__area-left md-t-center">
-							<p>Copyright © 2022 <a href="https://themeforest.net/user/themeori/portfolio">ThemeOri</a> Website by <a href="index.html">Hostily</a></p>
+							<p>Copyright © 2024 Reversed By <a href="index.html">Hotel Aura</a></p>
 						</div>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-5">
 						<div class="copyright__area-right t-right md-t-center">
-							<ul>
+							<p>Website Desgin by <a href="http://hospitalityminds.com/">Hospitality Minds</a></p>
+							<!-- <ul>
 								<li><a href="#">FAQ</a></li>
 								<li><a href="#">Terms of Use</a></li>
 								<li><a href="#">Privacy Policy</a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>

@@ -1,0 +1,65 @@
+.copyright__area-right p{
+    color: var(--white);
+    margin: 0;
+}
+.copyright__area-right p a {
+    color: var(--primary-color);
+}
+.services__two .container .row{
+    padding-bottom: 30px;
+}
+.section-padding {
+    padding: 40px 0px;
+}
+.check__area-item-book-now{
+    padding: 24px 40px;
+    width: 100%;
+    border: 1px solid var(--color-7);
+}
+.check__area-item-book-now p input {
+    color: var(--primary-color);
+    background: transparent;
+    border: 0;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 24px;
+    padding: 0;
+    height: initial;
+}
+.check__area-item-book-now p {
+    color: var(--color-2);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    margin: 0;
+}
+.check__area-item-book-now {
+    padding: 24px 40px;
+    width: 100%;
+    border-right: 1px solid var(--color-7);
+}
+.check__area-item-book-now p {
+    color: var(--color-2);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    margin: 0;
+}
+.check__area-item-room-book-now .nice-select {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    width: 100%;
+    height: initial;
+    line-height: initial;
+    top: 5px;
+}
+.room__list-item .room__list-item-left .room__list-item-image img{
+    max-width: 120%;
+    padding-right: 5px;
+}
+

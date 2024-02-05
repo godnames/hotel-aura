@@ -10,7 +10,7 @@
 	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>Hostily - Luxury Hotel Booking HTML5 Template</title>
+	<title>Hotel Aura Room</title>
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<!-- Bootstrap CSS -->
@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="assets/sass/style.css"> 
+	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
@@ -54,36 +55,36 @@
 					<div class="header__area-menubar-right">
 						<div class="header__area-menubar-right-menu menu-responsive">						
 							<ul id="mobilemenu">
-								<li class="menu-item-has-children"><a href="#">Home</a>
-									<ul class="sub-menu">
+								<li ><a href="index.html">Home</a>
+									<!-- <ul class="sub-menu">
 										<li><a href="index.html">Home 01</a></li>
 										<li><a href="index-2.html">Home 02</a></li>
 										<li><a href="index-3.html">Home 03</a></li>									
-									</ul>
+									</ul> -->
 								</li>
-								<li class="menu-item-has-children"><a href="#">Pages</a>
-									<ul class="sub-menu">
+								<li ><a href="about.html">About</a>
+									<!-- <ul class="sub-menu">
 										<li><a href="about.html">About</a></li>
 										<li><a href="services-team.html">Team</a></li>
 										<li><a href="services-details.html">Services Details</a></li>
 										<li><a href="coming-soon.html">Coming Soon</a></li>
-									</ul>
+									</ul> -->
 								</li>
-								<li class="menu-item-has-children"><a href="#">Room</a>
-									<ul class="sub-menu">
+								<li ><a href="room-list.html">Room</a>
+									<!-- <ul class="sub-menu">
 										<li><a href="room-style.html">Room Style</a></li>
 										<li><a href="room-modern.html">Room Modern</a></li>
 										<li><a href="room-list.html">Room List</a></li>
 										<li><a href="room-details.html">Room Details</a></li>
-									</ul>
+									</ul> -->
 								</li>
-								<li class="menu-item-has-children"><a href="#">Blog</a>
+								<!-- <li ><a href="#">Blog</a>
 									<ul class="sub-menu">
 										<li><a href="blog-grid.html">Blog Grid</a></li>
 										<li><a href="blog-standard.html">Blog Standard</a></li>
 										<li><a href="blog-details.html">Blog Details</a></li>
 									</ul>
-								</li>
+								</li> -->
 								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
@@ -123,7 +124,7 @@
             <div class="row">
                 <div class="col-xl-3">
                     <div class="all__sidebar">
-                        <div class="all__sidebar-item">
+                        <!-- <div class="all__sidebar-item">
                             <h5>Category</h5>
                             <div class="all__sidebar-item-category">
                                 <ul>                                    
@@ -134,36 +135,32 @@
                                     <li><a href="#"><i class="far fa-angle-double-right"></i>Double Room<span>(03)</span></a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="all__sidebar-item">
                             <h5>Booking Now</h5>
                             <div class="all__sidebar-item-booking">
 								<div class="all__sidebar-item-booking-item mb-10">
-									<select name="select">
-										<option value="1">Check In</option>
-										<option value="2">Check In</option>
-										<option value="3">Check In</option>
-										<option value="4">Check In</option>
-										<option value="5">Check In</option>
-									</select>
+									<div class="check__area-item-book-now">						
+										<p>Check In<input id="date" type="date"></p>								
+									</div>
 								</div>
 								<div class="all__sidebar-item-booking-item mb-10">
-									<select name="select">
-										<option value="1">Check Out</option>
-										<option value="2">Check Out</option>
-										<option value="3">Check Out</option>
-										<option value="4">Check Out</option>
-										<option value="5">Check Out</option>
-									</select>
+									<div class="check__area-item-book-now">						
+										<p>Check Out<input id="date2" type="date"></p>								
+									</div>
 								</div>
 								<div class="all__sidebar-item-booking-item mb-30">
-									<select name="select">
-										<option value="1">Room</option>
-										<option value="2">1 Room</option>
-										<option value="3">2 Room</option>
-										<option value="4">3 Room</option>
-										<option value="5">4 Room</option>
-									</select>
+									<div class="check__area-item-book-now">						
+										<div class="check__area-item-room-book-now">
+											<p>Room</p>
+											<select name="select">
+												<option value="1">Standard </option>
+												<option value="2">Deluxe </option>
+												<option value="3">Super Deluxe</option>
+												
+											</select>
+										</div>								
+									</div>
 								</div>
 								<a class="theme-btn" href="#">Check<i class="fal fa-long-arrow-right"></i></a>
                             </div>
@@ -174,21 +171,21 @@
                     <div class="room__list-item">
 						<div class="room__list-item-left">
 							<div class="room__list-item-image">
-								<img src="assets/img/hotel/hotel-19.jpg" alt="">
+								<img src="assets/images/standard-double-room-image.png" alt="">
 							</div>
 						</div>
 						<div class="room__list-item-right">
 							<div class="room__list-item-right-content">
-								<h4>Superior Room</h4>
-								<p>Savvy travelers are looking for more than just the next destination on the map. They are looking for a memorable experience.</p>
+								<h4>Standard Double Room</h4>
+								<p>The double room features air conditioning, soundproof walls, as well as a private bathroom boasting a bath and a shower. This double room has a wardrobe, a tiled floor and a flat-screen TV. The unit has 1 bed.</p>
 								<ul>
-									<li><i class="fal fa-bed-alt"></i>(3) bed's</li>
-									<li><i class="fal fa-users"></i>(7) Guest's</li>
+									<li><i class="fal fa-bed-alt"></i>(1) bed's</li>
+									<li><i class="fal fa-users"></i>(2) Guest's</li>
 								</ul>
 							</div>
 							<div class="room__list-item-right-meta">
 								<div class="room__list-item-right-meta-top">																	
-									<span>$249/Night</span>
+									<!-- <span>$249/Night</span> -->
 									<p><i class="fas fa-star"></i><span>2.9</span>2k</p>
 								</div>
 								<a class="simple-btn" href="#"><i class="far fa-chevron-right"></i>Read More</a>
@@ -198,21 +195,21 @@
                     <div class="room__list-item">
 						<div class="room__list-item-left">
 							<div class="room__list-item-image">
-								<img src="assets/img/hotel/hotel-20.jpg" alt="">
+								<img src="assets/images/deluxe-double-room-image.png" alt="">
 							</div>
 						</div>
 						<div class="room__list-item-right">
 							<div class="room__list-item-right-content">
-								<h4>Junior Suite</h4>
-								<p>Savvy travelers are looking for more than just the next destination on the map. They are looking for a memorable experience.</p>
+								<h4>Deluxe Double Room</h4>
+								<p>The spacious double room offers air conditioning, soundproof walls, as well as a private bathroom featuring a bath and a shower. The double room features tiled floors, a seating area with a flat-screen TV, a wardrobe, a sofa as well as city views. The unit offers 1 bed.</p>
 								<ul>
-									<li><i class="fal fa-bed-alt"></i>(4) bed's</li>
+									<li><i class="fal fa-bed-alt"></i>(1) bed's</li>
 									<li><i class="fal fa-users"></i>(2) Guest's</li>
 								</ul>
 							</div>
 							<div class="room__list-item-right-meta">
 								<div class="room__list-item-right-meta-top">																	
-									<span>$205/Night</span>
+									<!-- <span>$205/Night</span> -->
 									<p><i class="fas fa-star"></i><span>3.9</span>2k</p>
 								</div>
 								<a class="simple-btn" href="#"><i class="far fa-chevron-right"></i>Read More</a>
@@ -222,72 +219,24 @@
                     <div class="room__list-item">
 						<div class="room__list-item-left">
 							<div class="room__list-item-image">
-								<img src="assets/img/hotel/hotel-21.jpg" alt="">
+								<img src="assets/images/super-deluxe-double-room-image.png" alt="">
 							</div>
 						</div>
 						<div class="room__list-item-right">
 							<div class="room__list-item-right-content">
-								<h4>Double Room</h4>
-								<p>Savvy travelers are looking for more than just the next destination on the map. They are looking for a memorable experience.</p>
+								<h4>Super Deluxe Double Room</h4>
+								<p>The spacious double room offers air conditioning, soundproof walls, as well as a private bathroom featuring a bath and a shower. The double room features tiled floors, a seating area with a flat-screen TV, a wardrobe, a sofa as well as city views. The unit offers 1 bed.</p>
 								<ul>
-									<li><i class="fal fa-bed-alt"></i>(3) bed's</li>
-									<li><i class="fal fa-users"></i>(4) Guest's</li>
+									<li><i class="fal fa-bed-alt"></i>(1) bed's</li>
+									<li><i class="fal fa-users"></i>(2) Guest's</li>
 								</ul>
 							</div>
 							<div class="room__list-item-right-meta">
 								<div class="room__list-item-right-meta-top">																	
-									<span>$219/Night</span>
-									<p><i class="fas fa-star"></i><span>4.9</span>2k</p>
+									<!-- <span>$205/Night</span> -->
+									<p><i class="fas fa-star"></i><span>3.9</span>2k</p>
 								</div>
-								<a class="simple-btn" href="#"><i class="far fa-chevron-right"></i>Read More</a>
-							</div>
-						</div>
-                    </div>
-                    <div class="room__list-item">
-						<div class="room__list-item-left">
-							<div class="room__list-item-image">
-								<img src="assets/img/hotel/hotel-22.jpg" alt="">
-							</div>
-						</div>
-						<div class="room__list-item-right">
-							<div class="room__list-item-right-content">
-								<h4>Small Suite</h4>
-								<p>Savvy travelers are looking for more than just the next destination on the map. They are looking for a memorable experience.</p>
-								<ul>
-									<li><i class="fal fa-bed-alt"></i>(2) bed's</li>
-									<li><i class="fal fa-users"></i>(3) Guest's</li>
-								</ul>
-							</div>
-							<div class="room__list-item-right-meta">
-								<div class="room__list-item-right-meta-top">																	
-									<span>$188/Night</span>
-									<p><i class="fas fa-star"></i><span>4.4</span>2k</p>
-								</div>
-								<a class="simple-btn" href="#"><i class="far fa-chevron-right"></i>Read More</a>
-							</div>
-						</div>
-                    </div>
-                    <div class="room__list-item">
-						<div class="room__list-item-left">
-							<div class="room__list-item-image">
-								<img src="assets/img/hotel/hotel-23.jpg" alt="">
-							</div>
-						</div>
-						<div class="room__list-item-right">
-							<div class="room__list-item-right-content">
-								<h4>Luxury Room</h4>
-								<p>Savvy travelers are looking for more than just the next destination on the map. They are looking for a memorable experience.</p>
-								<ul>
-									<li><i class="fal fa-bed-alt"></i>(3) bed's</li>
-									<li><i class="fal fa-users"></i>(6) Guest's</li>
-								</ul>
-							</div>
-							<div class="room__list-item-right-meta">
-								<div class="room__list-item-right-meta-top">																	
-									<span>$229/Night</span>
-									<p><i class="fas fa-star"></i><span>3.7</span>2k</p>
-								</div>
-								<a class="simple-btn" href="#"><i class="far fa-chevron-right"></i>Read More</a>
+								<a class="simple-btn" href="#"><i class="far fa-chevron-right"></i>Book Now</a>
 							</div>
 						</div>
                     </div>
