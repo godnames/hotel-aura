@@ -62,4 +62,14 @@
     max-width: 120%;
     padding-right: 5px;
 }
+.all__sidebar-item-booking-item .nice-select::after{
+    right: 0px;
+}
+.footer__area-widget-about p{
+    max-width: 400px;
+}
+.house-rule li::marker{
+    color: #b89146;
+    font-size: 14px;    
+}
 
