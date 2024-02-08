@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // FIXME: Update this to your desired email address.
 
-    $recipient = "themeori.com@gmail.com";
+    $recipient = "aurahotel001@gmail.com";
 
 
 
@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //Email Header
 
-    $head = " ====== Working Contact Form Made by ThemeOri Team ====== ";
+    $head = " Hii ";
 
 
 
