@@ -96,3 +96,21 @@
 .room-title h3{
     padding-left: 30px;
 }
+
+
+.header__sticky.header__sticky-sticky-menu .header__area{
+    background: white;
+}
+
+.header__sticky.header__sticky-sticky-menu .header__area-menubar-right-menu ul li a{
+    color: black;
+}
+.header__sticky.header__sticky-sticky-menu .header__area-menubar-right-menu ul li a:hover{
+    color: black;
+}
+.header__area:hover{
+    background: #b89146;
+}
+.header__area-menubar-right-menu ul li:hover > a {
+    color: black;
+}
