@@ -10,7 +10,7 @@
 	<meta name="author" content="ThemeOri">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Title of Site -->
-	<title>Hotel Aura Room</title>
+	<title>Gallery - Hotel Aura</title>
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<!-- Bootstrap CSS -->
@@ -34,12 +34,16 @@
 
 <body>
 	<!-- Preloader start -->
-	<div class="theme-loader">
+	<!-- <div class="theme-loader">
 		<div class="spinner">
 			<div class="double-bounce1"></div>
 			<div class="double-bounce2"></div>
 		</div>
-	</div>
+	</div> -->
+    <a href="#" class="whatsapp-icon" onclick="openWhatsAppChat()" style="display: inline-flex; align-items: center; text-decoration: none;">
+        <img src="assets/images/whatsapp.png" alt="WhatsApp Icon" style="vertical-align: middle;">
+        
+    </a>
 	<!-- Preloader end -->
 	<!-- Header Area Start -->
 	<div class="header__sticky one">
@@ -48,7 +52,7 @@
 				<div class="header__area-menubar">
 					<div class="header__area-menubar-left">
 						<div class="header__area-menubar-left-logo">
-							<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+							<a href="index.html"><img src="assets/images/hotel-arua-logo.png" alt=""></a>
 							<div class="responsive-menu"></div>
 						</div>
 					</div>
@@ -70,7 +74,7 @@
 										<li><a href="coming-soon.html">Coming Soon</a></li>
 									</ul> -->
 								</li>
-								<li ><a href="room-list.html">Room</a>
+								<li ><a href="room.html">Room</a>
 									<!-- <ul class="sub-menu">
 										<li><a href="room-style.html">Room Style</a></li>
 										<li><a href="room-modern.html">Room Modern</a></li>
@@ -78,7 +82,9 @@
 										<li><a href="room-details.html">Room Details</a></li>
 									</ul> -->
 								</li>
-								<!-- <li ><a href="#">Blog</a>
+								<li ><a href="gallery.html">Gallery</a>
+								</li>
+								<!-- <li class="menu-item-has-children"><a href="#">Blog</a>
 									<ul class="sub-menu">
 										<li><a href="blog-grid.html">Blog Grid</a></li>
 										<li><a href="blog-standard.html">Blog Standard</a></li>
@@ -100,16 +106,16 @@
 	</div>
 	<!-- Header Area End -->	
 	<!-- Page Banner Start -->
-    <div class="page__banner" data-background="assets/images/room-banner-image.png">
+    <div class="page__banner" data-background="assets/images/about-banner-image.png">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
                     <div class="page__banner-title">
-                        <h1>Room List</h1>
+                        <h1>Gallery</h1>
                         <div class="page__banner-title-menu">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><span>-</span>Room List</li>
+                                <li><span>-</span>Gallery</li>
                             </ul>
                         </div>
                     </div>
@@ -118,162 +124,127 @@
         </div>
     </div>
 	<!-- Page Banner End -->
-	<!-- Room List Start -->
-    <div class="room__list section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3">
-                    <div class="all__sidebar">
-                        <!-- <div class="all__sidebar-item">
-                            <h5>Category</h5>
-                            <div class="all__sidebar-item-category">
-                                <ul>                                    
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Luxury Room<span>(08)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Small Suite<span>(06)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Single<span>(05)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Family<span>(09)</span></a></li>
-                                    <li><a href="#"><i class="far fa-angle-double-right"></i>Double Room<span>(03)</span></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <div class="all__sidebar-item">
-                            <h5>Booking Now</h5>
-                            <div class="all__sidebar-item-booking">
-								<div class="all__sidebar-item-booking-item mb-10">
-									<div class="check__area-item-book-now">						
-										<p>Check In<input id="date" type="date"></p>								
-									</div>
-								</div>
-								<div class="all__sidebar-item-booking-item mb-10">
-									<div class="check__area-item-book-now">						
-										<p>Check Out<input id="date2" type="date"></p>								
-									</div>
-								</div>
-								<div class="all__sidebar-item-booking-item mb-30">
-									<div class="check__area-item-book-now">						
-										<div class="check__area-item-room-book-now">
-											<p>Room</p>
-											<select name="select">
-												<option value="1">Standard </option>
-												<option value="2">Deluxe </option>
-												<option value="3">Super Deluxe</option>
-												
-											</select>
-										</div>								
-									</div>
-								</div>
-								<a class="theme-btn" href="#">Check<i class="fal fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-9 order-first order-xl-1 xl-mb-30">
-                    <div class="room__list-item">
-						<div class="room__list-item-left">
-							<div class="room__list-item-image">
-								<img src="assets/images/standard-double-room-image.png" alt="">
-							</div>
-						</div>
-						<div class="room__list-item-right">
-							<div class="room__list-item-right-content">
-								<h4>Standard Double Room</h4>
-								<p>The Standard double room features air conditioning, soundproof walls, as well as a private bathroom boasting a bath and a shower. This double room has a wardrobe, a tiled floor and a flat-screen TV. The unit has 1 bed.</p>
-								<ul>
-									<li><i class="fal fa-bed-alt"></i>(1) bed's</li>
-									<li><i class="fal fa-users"></i>(2) Guest's</li>
-								</ul>
-							</div>
-							<div class="room__list-item-right-meta">
-								<div class="room__list-item-right-meta-top">																	
-									<!-- <span>$249/Night</span> -->
-									<p><i class="fas fa-star"></i><span>2.9</span>2k</p>
-								</div>
-								<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Read More</a>
-							</div>
-						</div>
-                    </div>
-                    <div class="room__list-item">
-						<div class="room__list-item-left">
-							<div class="room__list-item-image">
-								<img src="assets/images/deluxe-double-room-image.png" alt="">
-							</div>
-						</div>
-						<div class="room__list-item-right">
-							<div class="room__list-item-right-content">
-								<h4>Deluxe Double Room</h4>
-								<p>The spacious Deluxe double room offers air conditioning, soundproof walls, as well as a private bathroom featuring a bath and a shower. The double room features tiled floors, a seating area with a flat-screen TV, a wardrobe, a sofa as well as city views. The unit offers 1 bed.</p>
-								<ul>
-									<li><i class="fal fa-bed-alt"></i>(1) bed's</li>
-									<li><i class="fal fa-users"></i>(2) Guest's</li>
-								</ul>
-							</div>
-							<div class="room__list-item-right-meta">
-								<div class="room__list-item-right-meta-top">																	
-									<!-- <span>$205/Night</span> -->
-									<p><i class="fas fa-star"></i><span>3.9</span>2k</p>
-								</div>
-								<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Read More</a>
-							</div>
-						</div>
-                    </div>
-                    <div class="room__list-item">
-						<div class="room__list-item-left">
-							<div class="room__list-item-image">
-								<img src="assets/images/super-deluxe-double-room-image.png" alt="">
-							</div>
-						</div>
-						<div class="room__list-item-right">
-							<div class="room__list-item-right-content">
-								<h4>Super Deluxe Double Room</h4>
-								<p>Immerse yourself in captivating city views from your luxurious Super Deluxe Double Room. Expansive glass windows bathe the spacious haven in light, while the plush king-size bed invites relaxation. Soundproofed walls ensure tranquility, and modern amenities are at your fingertips. The private bathroom features a refreshing shower, offering the perfect blend of urban exploration and in-room indulgence. </p>
-								<ul>
-									<li><i class="fal fa-bed-alt"></i>(1) bed's</li>
-									<li><i class="fal fa-users"></i>(2) Guest's</li>
-								</ul>
-							</div>
-							<div class="room__list-item-right-meta">
-								<div class="room__list-item-right-meta-top">																	
-									<!-- <span>$205/Night</span> -->
-									<p><i class="fas fa-star"></i><span>3.9</span>2k</p>
-								</div>
-								<a class="simple-btn" href="contact.html"><i class="far fa-chevron-right"></i>Book Now</a>
-							</div>
-						</div>
-                    </div>
-					<div class="services__details-left">
-						
-						<div class="services__details-left-content">
-							<h4 class="mb-30">House rules</h4>
-							<ul class="house-rule">
-								<li>Check-in:- 
-									From 12:00</li>
-								<li>
-									Check-out:- 
-									Until 11:00
-								</li>
-								<li>Children and beds:- <br>
-									<b>Child policies</b><br>
-										Children of any age are welcome. <br>
-										Children 18 years and above will be charged as adults at this property.
-										<br>
-									<b>Cots and extra bed policies</b> <br>
-									Cots and extra beds are not available at this property.
-								</li>
-								<li>No age restriction:-
-									There is no age requirement for check-in.</li>
-								<li>Pets:- 
-									Pets are not allowed.
-								</li>
-								<li>Cash only:- This property only accepts cash payments.</li>
-							</ul>
-							
-						</div>
-					</div>
-                </div>
-            </div>
+	
+	<!-- Gallery Area Start -->
+	<div class="gallery__area section-padding pb-0 overflow-hidden">
+        <div class="room-title">
+            <h3>Standard Room</h3>
         </div>
-    </div>
-	<!-- Room List End -->
+		<div class="container-fluid p-0">
+
+			<div class="row gallery-item">
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/standard-room-gallery1.png"><img class="img__full" src="assets/images/standard-room-gallery1.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/standard-room-gallery2.png"><img class="img__full" src="assets/images/standard-room-gallery2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/standard-room-gallery3.png"><img class="img__full" src="assets/images/standard-room-gallery3.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/standard-room-gallery4.png"><img class="img__full" src="assets/images/standard-room-gallery4.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="gallery__area section-padding pb-0 overflow-hidden">
+        <div class="room-title">
+            <h3>Deluxe Room</h3>
+        </div>
+		<div class="container-fluid p-0">
+
+			<div class="row gallery-item">
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/deluxe-room-gallery1.png"><img class="img__full" src="assets/images/deluxe-room-gallery1.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/deluxe-room-gallery2.png"><img class="img__full" src="assets/images/deluxe-room-gallery2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/deluxe-room-gallery3.png"><img class="img__full" src="assets/images/deluxe-room-gallery3.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/deluxe-room-gallery4.png"><img class="img__full" src="assets/images/deluxe-room-gallery4.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+    <div class="gallery__area section-padding pb-0 overflow-hidden">
+        <div class="room-title">
+            <h3>Super Deluxe Room</h3>
+        </div>
+		<div class="container-fluid p-0">
+
+			<div class="row gallery-item">
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/super-deluxe-room-gallery1.png"><img class="img__full" src="assets/images/super-deluxe-room-gallery1.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/super-deluxe-room-gallery2.png"><img class="img__full" src="assets/images/super-deluxe-room-gallery2.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/super-deluxe-room-gallery3.png"><img class="img__full" src="assets/images/super-deluxe-room-gallery3.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/super-deluxe-room-gallery4.png"><img class="img__full" src="assets/images/super-deluxe-room-gallery4.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+    <div class="gallery__area section-padding pb-0 overflow-hidden">
+        <div class="room-title">
+            <h3>Reception</h3>
+        </div>
+		<div class="container-fluid p-0">
+
+			<div class="row gallery-item">
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/reception-gallery1.png"><img class="img__full" src="assets/images/reception-gallery1.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-sm-3 sm-mb-10">
+					<div class="gallery__area-item">						
+						<a class="img-popup" href="assets/images/reception-gallery2.png"><img class="img__full" src="assets/images/reception-gallery2.png" alt=""></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	<!-- Gallery Area End -->
+	<!-- Team Area Start -->
+	
+	<!-- Team Area End -->
 	<!-- Footer Area Start -->	
 	<div class="footer__area">
 		<div class="container">
@@ -282,7 +253,7 @@
 					<div class="footer__area-widget">
 						<div class="footer__area-widget-about">
 							<div class="footer__area-widget-about-logo">
-								<a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+								<a href="index.html"><img src="assets/images/hotel-arua-logo.png" alt=""></a>
 							</div>
 							<p>At Hotel Aura, we strive to create an immersive experience that transcends the ordinary. Our commitment to excellence is evident in every detail.</p>
 							<!-- <div class="footer__area-widget-about-social">
@@ -307,7 +278,8 @@
 							<ul>
 								<li><a href="index.html"><i class="fal fa-angle-double-right"></i>Home</a></li>
 								<li><a href="about.html"><i class="fal fa-angle-double-right"></i>About</a></li>
-								<li><a href="room-list.html"><i class="fal fa-angle-double-right"></i>Room</a></li>
+								<li><a href="room.html"><i class="fal fa-angle-double-right"></i>Room</a></li>
+								<li><a href="gallery.html"><i class="fal fa-angle-double-right"></i>Gallery</a></li>
 								<li><a href="contact.html"><i class="fal fa-angle-double-right"></i>Contact</a></li>
 							</ul>
 						</div>

@@ -76,3 +76,23 @@
 .suite{
     padding: 10px;
 }
+
+.whatsapp-icon {
+    position: fixed;
+    left: 50px;
+    bottom: 40px;
+    width: 70px;
+    height: 70px;
+    z-index: 999;
+}
+
+.gallery__area .room-title .container-fluid{
+    padding: 10px;
+}
+
+.gallery-item{
+    padding: 10px ;
+}
+.room-title h3{
+    padding-left: 30px;
+}

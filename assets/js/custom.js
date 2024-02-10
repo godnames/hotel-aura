@@ -220,3 +220,14 @@ $(window).on('load', function() {
 		return false;
 	});
 })(jQuery);
+
+
+
+
+function openWhatsAppChat() {
+	// Replace the phone number and message text with your own
+	var phoneNumber = "+919136812929";
+	var message = "Hi%20I%20am%20looking%20for%20hotel%20Can%20we%20connect%3F";
+	var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
+	window.open(whatsappURL);
+}
