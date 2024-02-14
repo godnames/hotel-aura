@@ -69,7 +69,7 @@
     max-width: 400px;
 }
 .house-rule li::marker{
-    color: #b89146;
+    color: #659eb9;
     font-size: 14px;    
 }
 
@@ -106,11 +106,16 @@
     color: black;
 }
 .header__sticky.header__sticky-sticky-menu .header__area-menubar-right-menu ul li a:hover{
-    color: black;
+    color: #b89146;
 }
 .header__area:hover{
-    background: #b89146;
+    background: #659eb9;
 }
 .header__area-menubar-right-menu ul li:hover > a {
-    color: black;
+    color: #b89146;
+}
+
+.banner__area-title h1{
+    font-family: fangsong;
+    text-shadow: 5px 5px 5px  #9da6aa;
 }
